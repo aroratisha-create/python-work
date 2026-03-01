@@ -31,3 +31,11 @@
 #t.forward(90)
 #t.right(90)
 #t.done()
+
+
+age=int(input("How old are you??"))
+
+if age<=20:
+    if age>=10:
+        print("You are accepted in ages between 10 and 20!")
+    
