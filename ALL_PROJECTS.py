@@ -33,9 +33,16 @@
 #t.done()
 
 
-age=int(input("How old are you??"))
+#age=int(input("How old are you??"))
+#
+#if age<=20:
+#    if age>=10:
+#        print("You are accepted in ages between 10 and 20!")
 
-if age<=20:
-    if age>=10:
-        print("You are accepted in ages between 10 and 20!")
-    
+
+w=int (input("How many degrees celcius is the weather?"))
+
+if w>=17:
+    print ("Wear light and soft clothes!")
+else:
+    print ("Wear jackets and pullovers!")
