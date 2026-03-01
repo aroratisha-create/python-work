@@ -3,3 +3,31 @@
 #    print("Your number is even!")
 #else:
 #    print("Your number is odd!")
+
+
+#Raj1= 6
+#Raj2= 7
+#Raj3= 8
+#Raj4= 20
+#Raj5= 28
+
+#print (Raj1,Raj2,Raj3,Raj4,Raj5)
+
+
+#a="Congratalations!"
+#print(a.upper())
+
+
+#n=int(input("Choose a number??"))
+#print(n**0.5)
+
+#import turtle as t
+#t.forward(90)
+#t.right(90)
+#t.forward(90)
+#t.right(90)
+#t.forward(90)
+#t.right(90)
+#t.forward(90)
+#t.right(90)
+#t.done()
