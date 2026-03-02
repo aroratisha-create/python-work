@@ -40,9 +40,15 @@
 #        print("You are accepted in ages between 10 and 20!")
 
 
-w=int (input("How many degrees celcius is the weather?"))
+#w=int (input("How many degrees celcius is the weather?"))
+#
+#if w>=17:
+#    print ("Wear light and soft clothes!")
+#else:
+#    print ("Wear jackets and pullovers!")
 
-if w>=17:
-    print ("Wear light and soft clothes!")
+c=str(input("Choose a character,numbers or letters?"))
+if c.isalpha():
+    print("You have chosen a letter")
 else:
-    print ("Wear jackets and pullovers!")
+    print("You have not chosen a letter")
