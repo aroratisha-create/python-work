@@ -60,4 +60,9 @@ for py in range (1,row+1):
         print(" ",end="")
     for k in range (py):
         print("*",end="")
-    print()
+
+    print() 
+
+num=67
+b=bin(num).replace("0b","")
+print(b)
