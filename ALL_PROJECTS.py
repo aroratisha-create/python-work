@@ -54,15 +54,50 @@
 #     print("You have not chosen a letter")
 
 
-row=20
-for py in range (1,row+1):
-    for j in range (row-py):
-        print(" ",end="")
-    for k in range (py):
-        print("*",end="")
+# row=20
+# for py in range (1,row+1):
+#     for j in range (row-py):
+#         print(" ",end="")
+#     for k in range (py):
+#         print("*",end="")
+#     print()
 
-    print() 
 
-num=67
-b=bin(num).replace("0b","")
-print(b)
+# num=67
+# b=bin(num).replace("0b","")
+# print(b)
+
+
+# n=676767
+# count=0
+# while n>0:
+#     n//=10
+#     count+=1
+# print(count)
+
+
+# a=6
+# b=7
+# print(a**b)
+
+
+# print(ord("a"))
+
+
+
+# d=67
+# print(d*3.14)
+
+
+
+a,b,c=3,4,5
+# print("before swap",a,b,c)
+# a,b,c=c,a,b
+# print("after swap",a,b,c)
+
+
+import sys
+def shutdown():
+    print("shutting down program!")
+    sys.exit()
+shutdown()
