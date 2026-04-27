@@ -103,6 +103,11 @@
 # shutdown()
 
 
-total=int(input("ENTER THE TOTAL AMOUNT?!"))
-G_a=int(input("ENTER THE AMOUNT THE CUSTOMER GAVE?"))
-print(G_a-total)
+# total=int(input("ENTER THE TOTAL AMOUNT?!"))
+# G_a=int(input("ENTER THE AMOUNT THE CUSTOMER GAVE?"))
+# print(G_a-total)
+
+
+import calendar
+for i in range (1,13):
+    print (calendar.month_name[i])
