@@ -108,6 +108,32 @@
 # print(G_a-total)
 
 
-import calendar
-for i in range (1,13):
-    print (calendar.month_name[i])
+# import calendar
+# for i in range (1,13):
+#     print (calendar.month_name[i])
+
+# tup1 = (4,3,2,2,-1,18)
+# tup2 = (2,4,8,8,3,2,9)
+
+# t1 = 1 
+# t2 = 1
+# for i in tup1:
+#     t1 = t1 * i 
+# for i in tup2:
+#     t2 = t2 * i
+
+# print (t1, t2)
+
+
+
+def Alena (s,e):
+    odd = []
+    even = []
+    for i in range (s,e+1):
+        s = i ** 2
+        if s%2 == 0:
+            even.append(s)
+        else:
+            odd.append(s)
+    print (odd, even)
+Alena (1,9)
